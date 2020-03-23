@@ -1,0 +1,372 @@
+body {
+    margin:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.sear {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fffefe;
+
+}
+
+.sear li {
+    width: 100%;
+    text-align: left;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+}
+.sear li:last-child {
+    border-bottom: 1px solid #555;
+}
+.sear li a {
+    text-align: left;
+    color: black;
+}
+
+li {
+    float: left;
+}
+.comeco-cor {
+    background-color: #2d615d;
+}
+
+li:hover {
+    background-color: rgb(70, 162, 165);
+}
+
+a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.selecao {
+    display: block;
+    color: rgb(26, 133, 106);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.selecao:hover {
+    color: rgb(36, 173, 139);
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(70, 162, 165);
+}
+
+.dir {
+    float: right;
+}
+
+.arruma {
+    display: block;
+}
+
+.final {
+    margin-right: 50px;
+}
+
+.comeco {
+    margin-left: 50px;
+}
+
+.home {
+    background-color: #2d615d;
+}
+
+.home-img {
+    display: block;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.mensagem {
+    padding: 20px;
+    background-color: #858686;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+select {
+    background-color: #ffffff;
+}
+
+input[type=text],input[type=date], select {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid rgb(70, 162, 165);
+    box-sizing: border-box;
+}
+.mg-top {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.mg-t {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.row {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.md-col {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input[type=text]:focus, input[type=date]:focus, select:focus{
+    outline: none;
+    border-bottom: 3px solid rgb(70, 162, 165);
+}
+h3 {
+    font-weight: normal;
+    font-size: 40px;
+    font-family: Arial Narrow, sans-serif;
+    margin-top: 0px;
+}
+label {
+    font-size: 15px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #296b66;
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-decoration: none;
+    margin: 20px 2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: rgb(70, 162, 165);
+
+  }
+
+.btn-voltar {
+    background-color: #df2323;
+    border: none;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-edit {
+    background-color: #bbb93c;
+    border: none;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    background-color: #c9c644;
+}
+
+.btn {
+    background-color: #2d615d;
+    border: none;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(70, 162, 165);
+}
+
+.btn-voltar:hover {
+    background-color: #f72828;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    height: 30px;
+    text-align: left;
+    padding: 8px;
+}
+
+.edi {
+    text-align: right;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+button {
+    background-color: #df2323;
+    border: none;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+button:hover {
+    opacity:1;
+    background-color: #f32828;
+}
+  
+
+.cancelbtn {
+    background-color: #746e6e;
+    border: none;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.cancelbtn:hover {
+    background-color: #857e7e;
+}
+
+
+.deletebtn {
+    background-color: #f44336;
+}
+  
+
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: #474e5dc7;
+    padding-top: 50px;
+}
+  
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto auto auto; 
+    border: 1px solid #888;
+    width: 50%; 
+}
+  
+
+ 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    max-width: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    overflow: auto;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.drop:hover {
+    color: #31817d;
+}
+
+.obrigatorio {
+    color: red;
+}
